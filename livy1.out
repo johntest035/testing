@@ -1,0 +1,26 @@
+18/09/06 15:08:21 WARN LivyConf: The configuration key livy.server.access_control.enabled has been deprecated as of Livy 0.4 and may be removed in the future. Please use the new key livy.server.access-control.enabled instead.
+18/09/06 15:08:21 WARN LivyConf: The configuration key livy.server.access_control.users has been deprecated as of Livy 0.4 and may be removed in the future. 
+18/09/06 15:08:21 INFO AccessManager: AccessControlManager acls enabled;users with view permission: ;users with modify permission: ;users with super permission: ;other allowed users: *
+18/09/06 15:08:22 INFO LineBufferedStream: stdout: Welcome to
+18/09/06 15:08:22 INFO LineBufferedStream: stdout:       ____              __
+18/09/06 15:08:22 INFO LineBufferedStream: stdout:      / __/__  ___ _____/ /__
+18/09/06 15:08:22 INFO LineBufferedStream: stdout:     _\ \/ _ \/ _ `/ __/  '_/
+18/09/06 15:08:22 INFO LineBufferedStream: stdout:    /___/ .__/\_,_/_/ /_/\_\   version 2.1.0.cloudera2
+18/09/06 15:08:22 INFO LineBufferedStream: stdout:       /_/
+18/09/06 15:08:22 INFO LineBufferedStream: stdout:                         
+18/09/06 15:08:22 INFO LineBufferedStream: stdout: Using Scala version 2.11.8, Java HotSpot(TM) 64-Bit Server VM, 1.7.0_67
+18/09/06 15:08:22 INFO LineBufferedStream: stdout: Branch HEAD
+18/09/06 15:08:22 INFO LineBufferedStream: stdout: Compiled by user jenkins on 2017-09-25T20:04:18Z
+18/09/06 15:08:22 INFO LineBufferedStream: stdout: Revision bc2bd6e5ca1ff00867517f079021ab61d0e965ba
+18/09/06 15:08:22 INFO LineBufferedStream: stdout: Url git://github.mtv.cloudera.com/cdh/spark.git
+18/09/06 15:08:22 INFO LineBufferedStream: stdout: Type --help for more information.
+18/09/06 15:08:22 DEBUG MutableMetricsFactory: field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, about=, value=[Rate of successful kerberos logins and latency (milliseconds)], always=false, type=DEFAULT, sampleName=Ops)
+18/09/06 15:08:22 DEBUG MutableMetricsFactory: field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, about=, value=[Rate of failed kerberos logins and latency (milliseconds)], always=false, type=DEFAULT, sampleName=Ops)
+18/09/06 15:08:22 DEBUG MutableMetricsFactory: field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, about=, value=[GetGroups], always=false, type=DEFAULT, sampleName=Ops)
+18/09/06 15:08:22 DEBUG MetricsSystemImpl: UgiMetrics, User and group related metrics
+18/09/06 15:08:22 DEBUG Shell: setsid exited with exit code 0
+18/09/06 15:08:22 DEBUG Groups:  Creating new Groups object
+18/09/06 15:08:22 DEBUG Groups: Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping; cacheTimeout=300000; warningDeltaMs=5000
+kinit: Password incorrect while getting initial credentials
+18/09/06 15:08:22 WARN LivyServer: Fail to run kinit command.
+18/09/06 15:08:22 ERROR LivyServer: Failed to run kinit, stopping the server.
